@@ -1,4 +1,4 @@
-module github.com/serverlessresearch/srkClient
+module github.com/serverlessresearch/srkExampleClient
 
 go 1.13
 

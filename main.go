@@ -9,7 +9,7 @@ import (
 
 func main() {
 	mgrArgs := map[string]interface{}{}
-	mgrArgs["config-file"] = "/scratch/nathanp/srkClient/srk.yaml"
+	mgrArgs["config-file"] = "./srk.yaml"
 	mgr, err := srkmgr.NewManager(mgrArgs)
 	if err != nil {
 		fmt.Printf("Failed to initialize: %v\n", err)
